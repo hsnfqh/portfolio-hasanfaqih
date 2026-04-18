@@ -778,7 +778,7 @@
                     Projects I have developed throughout my career journey
                 </p>
                 
-                <!-- Category Tabs -->
+                <!-- Category Tabs - Updated with 4 categories -->
                 <div class="flex flex-wrap justify-center gap-4 mb-12 reveal reveal-delay-1">
                     <button data-category="all" class="category-tab active px-8 py-3.5 bg-gradient-to-r from-blue-700 to-blue-800 text-white font-semibold rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl border border-blue-600">
                         <i class="fas fa-layer-group mr-2"></i>
@@ -800,6 +800,12 @@
                         <span class="flex items-center gap-3">
                             <i class="fas fa-paint-brush text-blue-400"></i>
                             Design
+                        </span>
+                    </button>
+                    <button data-category="data-analytic" class="category-tab px-8 py-3.5 glass-effect text-gray-300 font-semibold rounded-xl border border-gray-700 hover:border-green-500 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                        <span class="flex items-center gap-3">
+                            <i class="fas fa-chart-line text-green-400"></i>
+                            Data Analytic
                         </span>
                     </button>
                 </div>
@@ -1280,6 +1286,63 @@
                             
                             <a href="https://penyu-edu.netlify.app/" 
                                class="inline-flex items-center gap-3 text-teal-400 font-medium text-sm group-hover:text-teal-300 group-hover:gap-4 transition-all duration-300">
+                                <span>View Details</span>
+                                <i class="fas fa-arrow-right transform group-hover:translate-x-2 transition-transform duration-300"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DATA ANALYTIC PROJECT - Customer Churn Analysis -->
+                <div class="project-item data-analytic reveal reveal-delay-2" data-category="data-analytic">
+                    <div class="group relative overflow-hidden glass-effect rounded-2xl hover:shadow-2xl transition-all duration-500 border border-gray-700/50 hover:border-green-500/50 card-hover">
+                        <div class="absolute top-4 right-4 z-10">
+                            <span class="badge flex items-center gap-1 px-3 py-1 bg-green-900/40 backdrop-blur-sm rounded-full text-white text-xs font-semibold border border-green-700/30">
+                                <i class="fas fa-chart-line text-white"></i>
+                                Data Analytic
+                            </span>
+                        </div>
+                        
+                        <div class="p-6">
+                            <div class="mb-6 rounded-xl overflow-hidden border border-gray-800/50 shadow-inner">
+                                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                     alt="Customer Churn Analysis Preview"
+                                     class="w-full h-48 object-cover transform group-hover:scale-105 transition-transform duration-700"
+                                     onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                                <div class="absolute inset-0 bg-gradient-to-t from-gray-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h4 class="text-xl font-bold text-gray-300 group-hover:text-green-300 transition-colors duration-300">
+                                    Customer Churn Analysis
+                                </h4>
+                                <p class="text-sm text-gray-400 font-medium mt-1">
+                                    E-Commerce Platform - Bogor, Indonesia
+                                </p>
+                                <p class="text-xs text-blue-400 mt-1 flex items-center gap-1">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    Apr 2026
+                                </p>
+                            </div>
+
+                            <p class="text-gray-400 text-sm leading-relaxed mb-6 line-clamp-3">
+                                Analyzed customer behavior dataset (50,000 records, 25 features) to identify churn patterns. Performed data preprocessing including data cleaning, validation, and feature selection. 
+                            </p>
+                            
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="tech-tag px-3 py-1.5 bg-blue-900/30 text-blue-300 rounded-lg text-xs font-medium border border-blue-700/30 hover:border-blue-500/50 transition-colors duration-300">
+                                    <i class="fab fa-python mr-1.5"></i>Python
+                                </span>
+                                <span class="tech-tag px-3 py-1.5 bg-cyan-900/30 text-cyan-300 rounded-lg text-xs font-medium border border-cyan-700/30 hover:border-cyan-500/50 transition-colors duration-300">
+                                    <i class="fas fa-chart-line mr-1.5"></i>Pandas
+                                </span>
+                                <span class="tech-tag px-3 py-1.5 bg-purple-900/30 text-purple-300 rounded-lg text-xs font-medium border border-purple-700/30 hover:border-purple-500/50 transition-colors duration-300">
+                                    <i class="fas fa-chart-simple mr-1.5"></i>Matplotlib
+                                </span>
+                            </div>
+                            
+                            <a href="https://colab.research.google.com/drive/1IH6kScqWSvzC2l5vsZ2V4r4FvD4l_FNM?usp=sharing" 
+                               class="inline-flex items-center gap-3 text-green-400 font-medium text-sm group-hover:text-green-300 group-hover:gap-4 transition-all duration-300">
                                 <span>View Details</span>
                                 <i class="fas fa-arrow-right transform group-hover:translate-x-2 transition-transform duration-300"></i>
                             </a>
